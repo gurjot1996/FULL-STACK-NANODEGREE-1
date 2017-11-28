@@ -1,0 +1,19 @@
+1)box-sizing-
+	tells the browser whether border box or content box
+2)negative space
+	space around the content padding ,margins are a good option to add negative space
+	space where there is nothing and improves visibility 
+3)media only queries 
+	these actions applies to devices type and conditions like max width
+
+	@media only screen and max-width:200px{
+		p{
+			display:none;
+		}
+	}
+
+4)overflow:auto
+	when we have too much text and need a scroller
+
+5)css normalize:
+	to have same experience on all browsers	

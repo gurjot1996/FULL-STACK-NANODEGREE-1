@@ -1,0 +1,4 @@
+1)creating a custom css framework by manually defining the width styling and using classes in 
+html file
+2)bootstrap 
+	reading documentation
