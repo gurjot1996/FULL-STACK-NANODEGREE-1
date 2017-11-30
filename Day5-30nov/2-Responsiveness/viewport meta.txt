@@ -1,0 +1,6 @@
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+
+this tag defines the viewport 
+
+data would adjust as the screen shrinks or expands or we switch toa mobile device

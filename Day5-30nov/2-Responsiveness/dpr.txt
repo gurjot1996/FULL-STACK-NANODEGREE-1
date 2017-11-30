@@ -1,0 +1,6 @@
+device pixel ratio 
+ 
+css pixels=Hardwarepixels/dpr
+
+hardware pixels are claimed pixels
+

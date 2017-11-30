@@ -1,0 +1,5 @@
+1)modals
+
+2)responsiveness
+	dpr
+	viewports
