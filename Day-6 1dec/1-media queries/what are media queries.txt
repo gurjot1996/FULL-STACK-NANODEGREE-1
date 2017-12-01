@@ -1,0 +1,13 @@
+media queries - different behaviour on deifferent sized screens 
+way 1)
+	<link rel="stylesheet" href="abc.css" media="screen and (max-width:500px)">
+
+way 2)
+	<style>
+		@media screen and (max-width:500px){
+			body{
+				background-color:red;
+			}
+		}	
+
+	</style>
