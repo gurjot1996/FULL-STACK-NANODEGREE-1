@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>column drop</title>
+	<style>
+	#content{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#content div{
+		height:200px;
+	}
+
+	@media screen and (min-width:500px) and (max-width: 900px){
+		.blue{
+			background-color: blue;
+			width: 20%
+		}
+		.green{
+			background-color: green;
+			width: 80%;
+		}
+		.yellow{
+			background-color: yellow;
+			width: 100%
+		}
+	}
+	@media screen and (max-width:499px){
+		.blue{
+			background-color: blue;
+			width: 100%
+		}
+		.green{
+			background-color: green;
+			width: 100%;
+		}
+		.yellow{
+			background-color: yellow;
+			width: 100%
+		}
+	}
+	@media screen and (min-width:900px){
+		.blue{
+			background-color: blue;
+			width: 33.33%
+		}
+		.green{
+			background-color: green;
+			width: 33.33%;
+		}
+		.yellow{
+			background-color: yellow;
+			width: 33.33%
+		}
+	}
+	</style>
+</head>
+<body>
+<div id="content">
+	<div class="blue"> </div>
+	<div class="green"> </div>
+	<div class="yellow"> </div>
+</div>
+</body>
+</html>
