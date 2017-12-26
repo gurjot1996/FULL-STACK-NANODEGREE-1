@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clear floats</title>
+</head>
+<style type="text/css">
+
+	.serv
+	{
+		float: left;
+		margin: 5px;
+		text-align: center;
+		padding: 20px;
+		max-width: 20%;
+		background-color: #ccc;
+	}
+	.content p{
+		text-transform: uppercase;
+		background-color: cyan;
+	}
+	.services:after{
+		display: block;
+		clear: both;
+	}
+</style>
+<body>
+<div class="services">
+	<div class="serv">
+		<h2>Service 1</h2>
+		<p>This is the service that we will offer.</p>
+	</div>
+	<div class="serv">
+		<h2>Service 2</h2>
+		<p>This is the service that we will offer.</p>
+	</div>
+	<div class="serv">
+		<h2>Service 3</h2>
+		<p>This is the service that we will offer.</p>
+	</div>
+</div>
+<div class="content">
+	<p>gurjot singh joshi</p>
+</div>
+</body>
+</html>
